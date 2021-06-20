@@ -17,12 +17,12 @@ json submit example: please set role as "admin"/"mod"/"user"
 5 signin via URL http://localhost:8080/api/auth/signin
 json submit example: use username, passworf signup above
 {
-	"username":"diep1",
-    "password":"1234567"
+	"username":"diep",
+    "password":"123456"
 }
 
 API list_places URL http://localhost:8080/api/places/
 headers : please submit token get from signin API 
-Authorization: token_typpe accessToken
+Authorization: Bearer <accessToken>
 example
 Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJkaWVwIiwiaWF0IjoxNjI0MDk3MzQ0LCJleHAiOjE2MjQxODM3NDR9.FThqm7D6pk3gZ-1_mmkxtUypcIiInVNEnM6JgOEivYypcCAZ8bJ4rLai9mjK5MH0edAfJbNtAQI_j_wEat1XHQ
